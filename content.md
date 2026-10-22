@@ -1,4 +1,4 @@
-**Recommendation:** Govern the program through bodies that already exist rather than creating new ones.
+**Recommendation:** Build oversight on bodies that already exist, and add only two small program committees: a steering committee and a faculty allocation committee.
 
 - The UC Office of the President owns the system, as the gift agreement requires.
 - The three public systems (UC, CSU and the California Community Colleges) oversee it together through the California Education Round Table, which already brings their leaders together.
