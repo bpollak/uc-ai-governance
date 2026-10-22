@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Governance and Oversight of the UC–CSU–CCC AI Computing Program</title>
+<style>
+:root {
+  --bg: #ffffff; --text: #1b1f24; --muted: #57606a; --rule: #d8dee4;
+  --accent: #182b49; --gold: #ffcd00; --tint: #f4f6f9;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1419; --text: #e6e9ed; --muted: #9aa4af; --rule: #2d333b;
+    --accent: #9ec5ff; --gold: #ffcd00; --tint: #161c23;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+header { border-top: 6px solid var(--gold); background: var(--tint); }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+header .wrap { padding-top: 40px; padding-bottom: 28px; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; color: var(--accent); }
+.byline { color: var(--muted); margin: 0; font-size: 0.95rem; }
+main { padding-top: 24px; padding-bottom: 64px; }
+h2 { font-size: 1.35rem; margin: 2.4em 0 0.6em; color: var(--accent);
+      padding-top: 0.6em; border-top: 1px solid var(--rule); }
+p, ul, ol { margin: 0 0 1em; }
+li { margin-bottom: 0.35em; }
+.table { overflow-x: auto; margin: 0 0 1.2em; }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--rule); }
+th { background: var(--tint); font-weight: 600; }
+figure { margin: 1.4em 0; }
+figure img { display: block; width: 100%; height: auto; background: #fff;
+             border: 1px solid var(--rule); border-radius: 8px; padding: 8px; }
+footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+footer .wrap { padding-top: 16px; padding-bottom: 32px; }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>Governance and Oversight of the UC–CSU–CCC AI Computing Program</h1>
+<p class="byline">UC San Diego IT Services · October 2026 · Draft for discussion</p>
+</div></header>
+<main class="wrap">
+<p><strong>Recommendation:</strong> Govern the program through bodies that already exist rather than creating new ones.</p>
+<ul>
+<li>The UC Office of the President owns the system, as the gift agreement requires.</li>
+<li>The three public systems (UC, CSU and the California Community Colleges) oversee it together through the California Education Round Table, which already brings their leaders together.</li>
+<li>A small steering committee handles governance day to day.</li>
+<li>UC San Diego operates the system.</li>
+</ul>
+<h2>Proposed structure</h2>
+<figure><img src="images/governance-structure.png" alt="Existing bodies oversee, UCOP owns, UC San Diego runs the system. The California Education Round Table provides joint oversight and the UC Office of the President is the owner. Both feed a program steering committee chaired by UCOP, advised by a faculty allocation committee from all three systems. The steering committee directs UC San Diego as host and operator (SDSC for systems, data center and research support; IT Services for the teaching platform, accounts and user support), which serves users at UC, CSU and the California Community Colleges." loading="lazy"></figure>
+<h2>What the committee oversees</h2>
+<p>The planned system at SDSC has 15 GPU racks, divided by use:</p>
+<div class="table"><table>
+<thead>
+<tr>
+<th>Part of the system</th>
+<th>Size</th>
+<th>Who uses it, and how they get access</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High-performance research</td>
+<td>8 racks</td>
+<td>Research groups running large training and simulation jobs; time is awarded by the allocation committee</td>
+</tr>
+<tr>
+<td>General research</td>
+<td>4 racks, one of them a secure enclave for regulated data</td>
+<td>Faculty and graduate researchers; enclave users are vetted for regulated-data rules</td>
+</tr>
+<tr>
+<td>Teaching and AI models</td>
+<td>3 racks, shifted between the two across the academic year</td>
+<td>Instructors request course environments each term; AI model use is tracked by project and campus</td>
+</tr>
+</tbody>
+</table></div>
+<p>The steering committee can change this split each year as demand becomes clear.</p>
+<h2>Who does what</h2>
+<div class="table"><table>
+<thead>
+<tr>
+<th>Body</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>California Education Round Table</strong> (UC President, CSU and CCC Chancellors)</td>
+<td>Joint oversight: endorses access principles for the three systems and receives an annual report</td>
+</tr>
+<tr>
+<td><strong>UC Office of the President</strong></td>
+<td>Owner: approves the budget, equipment purchases and refresh</td>
+</tr>
+<tr>
+<td><strong>Program steering committee</strong> (chaired by UCOP; members from UC San Diego, CSU, CCC and faculty)</td>
+<td>Day-to-day governance: sets each system's share, approves the annual plan, oversees operations</td>
+</tr>
+<tr>
+<td><strong>UC San Diego</strong> (SDSC and IT Services)</td>
+<td>Host and operator: SDSC runs the systems, data center and cooling, and supports research users; IT Services runs the teaching platform, accounts and user support</td>
+</tr>
+<tr>
+<td><strong>Allocation committee</strong> (faculty from all three systems)</td>
+<td>Awards research time on the high-performance and general research racks</td>
+</tr>
+</tbody>
+</table></div>
+<h2>How it would work</h2>
+<ul>
+<li><strong>Fair access.</strong> Each year the steering committee sets the split between research and teaching, and a guaranteed share for each system, so no system crowds out the others.</li>
+<li><strong>One contact per system.</strong> UC campuses and the CSU and community college system offices each name an access lead. Individual users sign in and request access themselves.</li>
+<li><strong>No charge to users.</strong> Students and faculty use the system free. As the gift agreement anticipates, operations and equipment refresh are paid for by institutional contributions, research grants where allowed, state support and philanthropy.</li>
+<li><strong>Accountability.</strong> An annual report to the Round Table and the donor covers use by system, results and finances.</li>
+</ul>
+</main>
+<footer><div class="wrap">Draft for discussion.</div></footer>
+</body>
+</html>
